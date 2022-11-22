@@ -45,8 +45,8 @@ function Paradoteo1(){
 	echo "First image = first md file, Second image = Second md file"
 	read -p "Insert image name file[Example: image.jpg]: " Imagename1
 	read -p "Insert second image file name [Example: image2.jpg]: " Imagename2
-	convert $Imagename1 -resize 160x160 $Basedir/site/images/thumb-$File1.png
-	convert $Imagename2 -resize 160x160 $Basedir/site/images/thumb-$File2.png
+	convert $Imagename1 -resize 160x160 $Basedir/site/images/$File1-thumb.png
+	convert $Imagename2 -resize 160x160 $Basedir/site/images/$File2-thumb.png
 	cp $Imagename1 $Basedir/site/images/$File1.png
 	cp $Imagename2 $Basedir/site/images/$File2.png
 	cd $Basedir/site/images
