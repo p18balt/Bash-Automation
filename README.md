@@ -8,8 +8,11 @@ to work you need:
 
 Usage:
 git clone https://github.com/p18balt/Bash-Automation
+
 cd Bash-Automation
+
 chmod +x bash.sh
+
 sudo bash bash.sh
 
 rest is self explainatory.
