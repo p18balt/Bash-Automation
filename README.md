@@ -14,7 +14,7 @@ Includes:
 ### Usage:
 
 ```
-git clone https://github.com/p18balt/Bash-Automation
+git clone https://github.com/p18balt/Bash-Automation.git
 
 cd Bash-Automation
 
