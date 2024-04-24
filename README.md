@@ -3,7 +3,7 @@ Bash program that automates the A1 exercise of the HCI course at Ionian Universi
 has a menu that allows you to configure Github and also walks you through the A1 exercise making it easier to complete.
 Includes:
 - Menu
-- Github name/email configure
+- Github name/email configuration
 - A1 exercise automation
 
 ### To work you need:
